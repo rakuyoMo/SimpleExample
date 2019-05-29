@@ -12,9 +12,15 @@
 		3A0BAE2B229E51EC00F5A492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BAE29229E51EC00F5A492 /* Main.storyboard */; };
 		3A0BAE2D229E51EE00F5A492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BAE2C229E51EE00F5A492 /* Assets.xcassets */; };
 		3A0BAE30229E51EE00F5A492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BAE2E229E51EE00F5A492 /* LaunchScreen.storyboard */; };
+		3A0BAE8D229E52EA00F5A492 /* CGSize+MBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE6C229E52EA00F5A492 /* CGSize+MBC.swift */; };
+		3A0BAE93229E52EA00F5A492 /* YYLabel+MBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE73229E52EA00F5A492 /* YYLabel+MBC.swift */; };
+		3A0BAE9D229E52EA00F5A492 /* NSObject+MBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE7E229E52EA00F5A492 /* NSObject+MBC.swift */; };
+		3A0BAE9E229E52EA00F5A492 /* Extendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE80229E52EA00F5A492 /* Extendable.swift */; };
+		B5CA78C4188F78444D9A9B87 /* libPods-SimpleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3828554D2672ECFA2A9F2D4 /* libPods-SimpleExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2193DFD1F97EC96AA53DD179 /* Pods-SimpleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleExample.debug.xcconfig"; path = "Target Support Files/Pods-SimpleExample/Pods-SimpleExample.debug.xcconfig"; sourceTree = "<group>"; };
 		3A0BAE22229E51EC00F5A492 /* SimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0BAE25229E51EC00F5A492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A0BAE27229E51EC00F5A492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		3A0BAE2C229E51EE00F5A492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0BAE2F229E51EE00F5A492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A0BAE31229E51EE00F5A492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0BAE6C229E52EA00F5A492 /* CGSize+MBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+MBC.swift"; sourceTree = "<group>"; };
+		3A0BAE73229E52EA00F5A492 /* YYLabel+MBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YYLabel+MBC.swift"; sourceTree = "<group>"; };
+		3A0BAE7E229E52EA00F5A492 /* NSObject+MBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+MBC.swift"; sourceTree = "<group>"; };
+		3A0BAE80229E52EA00F5A492 /* Extendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extendable.swift; sourceTree = "<group>"; };
+		AABA4B04BCC224313658054F /* Pods-SimpleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleExample.release.xcconfig"; path = "Target Support Files/Pods-SimpleExample/Pods-SimpleExample.release.xcconfig"; sourceTree = "<group>"; };
+		C3828554D2672ECFA2A9F2D4 /* libPods-SimpleExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CA78C4188F78444D9A9B87 /* libPods-SimpleExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				3A0BAE24229E51EC00F5A492 /* SimpleExample */,
 				3A0BAE23229E51EC00F5A492 /* Products */,
+				CD91BAD46799D7A9C7DC4613 /* Pods */,
+				9BBAEB3C04285FEDE4FD4D27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +78,10 @@
 		3A0BAE4B229E524A00F5A492 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				3A0BAE7F229E52EA00F5A492 /* Extendable */,
+				3A0BAE74229E52EA00F5A492 /* Object */,
+				3A0BAE5F229E52EA00F5A492 /* UI */,
+				3A0BAE71229E52EA00F5A492 /* YYText */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -80,6 +99,55 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		3A0BAE5F229E52EA00F5A492 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BAE6C229E52EA00F5A492 /* CGSize+MBC.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3A0BAE71229E52EA00F5A492 /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BAE73229E52EA00F5A492 /* YYLabel+MBC.swift */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		3A0BAE74229E52EA00F5A492 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BAE7E229E52EA00F5A492 /* NSObject+MBC.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		3A0BAE7F229E52EA00F5A492 /* Extendable */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BAE80229E52EA00F5A492 /* Extendable.swift */,
+			);
+			path = Extendable;
+			sourceTree = "<group>";
+		};
+		9BBAEB3C04285FEDE4FD4D27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3828554D2672ECFA2A9F2D4 /* libPods-SimpleExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD91BAD46799D7A9C7DC4613 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2193DFD1F97EC96AA53DD179 /* Pods-SimpleExample.debug.xcconfig */,
+				AABA4B04BCC224313658054F /* Pods-SimpleExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -87,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A0BAE34229E51EE00F5A492 /* Build configuration list for PBXNativeTarget "SimpleExample" */;
 			buildPhases = (
+				C74DBDCB1A559E50ABEB8C6E /* [CP] Check Pods Manifest.lock */,
 				3A0BAE1E229E51EC00F5A492 /* Sources */,
 				3A0BAE1F229E51EC00F5A492 /* Frameworks */,
 				3A0BAE20229E51EC00F5A492 /* Resources */,
@@ -146,12 +215,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C74DBDCB1A559E50ABEB8C6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A0BAE1E229E51EC00F5A492 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0BAE93229E52EA00F5A492 /* YYLabel+MBC.swift in Sources */,
+				3A0BAE9E229E52EA00F5A492 /* Extendable.swift in Sources */,
+				3A0BAE8D229E52EA00F5A492 /* CGSize+MBC.swift in Sources */,
 				3A0BAE28229E51EC00F5A492 /* ViewController.swift in Sources */,
+				3A0BAE9D229E52EA00F5A492 /* NSObject+MBC.swift in Sources */,
 				3A0BAE26229E51EC00F5A492 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +394,7 @@
 		};
 		3A0BAE35229E51EE00F5A492 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2193DFD1F97EC96AA53DD179 /* Pods-SimpleExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,6 +412,7 @@
 		};
 		3A0BAE36229E51EE00F5A492 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABA4B04BCC224313658054F /* Pods-SimpleExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
