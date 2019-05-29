@@ -1,9 +1,9 @@
 //
 //  Extendable.swift
-//  MBCore
+//  SimpleExample
 //
-//  Created by Rakuyo on 2019/3/2.
-//  Copyright © 2019 com.mbcore. All rights reserved.
+//  Created by MBCore on 2019/5/29.
+//  Copyright © 2019 Rakuyo. All rights reserved.
 //
 
 public struct Extendable<Base> {

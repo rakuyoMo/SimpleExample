@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  YYLabel+MBC.swift
 //  SimpleExample
 //
 //  Created by MBCore on 2019/5/29.

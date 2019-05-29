@@ -12,7 +12,7 @@
 		3A0BAE2B229E51EC00F5A492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BAE29229E51EC00F5A492 /* Main.storyboard */; };
 		3A0BAE2D229E51EE00F5A492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BAE2C229E51EE00F5A492 /* Assets.xcassets */; };
 		3A0BAE30229E51EE00F5A492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BAE2E229E51EE00F5A492 /* LaunchScreen.storyboard */; };
-		3A0BAE8D229E52EA00F5A492 /* CGSize+MBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE6C229E52EA00F5A492 /* CGSize+MBC.swift */; };
+		3A0BAE8D229E52EA00F5A492 /* UITableView+MBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE6C229E52EA00F5A492 /* UITableView+MBC.swift */; };
 		3A0BAE93229E52EA00F5A492 /* YYLabel+MBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE73229E52EA00F5A492 /* YYLabel+MBC.swift */; };
 		3A0BAE9D229E52EA00F5A492 /* NSObject+MBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE7E229E52EA00F5A492 /* NSObject+MBC.swift */; };
 		3A0BAE9E229E52EA00F5A492 /* Extendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE80229E52EA00F5A492 /* Extendable.swift */; };
@@ -29,7 +29,7 @@
 		3A0BAE2C229E51EE00F5A492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0BAE2F229E51EE00F5A492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A0BAE31229E51EE00F5A492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A0BAE6C229E52EA00F5A492 /* CGSize+MBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+MBC.swift"; sourceTree = "<group>"; };
+		3A0BAE6C229E52EA00F5A492 /* UITableView+MBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+MBC.swift"; sourceTree = "<group>"; };
 		3A0BAE73229E52EA00F5A492 /* YYLabel+MBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YYLabel+MBC.swift"; sourceTree = "<group>"; };
 		3A0BAE7E229E52EA00F5A492 /* NSObject+MBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+MBC.swift"; sourceTree = "<group>"; };
 		3A0BAE80229E52EA00F5A492 /* Extendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extendable.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		3A0BAE5F229E52EA00F5A492 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				3A0BAE6C229E52EA00F5A492 /* CGSize+MBC.swift */,
+				3A0BAE6C229E52EA00F5A492 /* UITableView+MBC.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -251,7 +251,7 @@
 			files = (
 				3A0BAE93229E52EA00F5A492 /* YYLabel+MBC.swift in Sources */,
 				3A0BAE9E229E52EA00F5A492 /* Extendable.swift in Sources */,
-				3A0BAE8D229E52EA00F5A492 /* CGSize+MBC.swift in Sources */,
+				3A0BAE8D229E52EA00F5A492 /* UITableView+MBC.swift in Sources */,
 				3A0BAE28229E51EC00F5A492 /* ViewController.swift in Sources */,
 				3A0BAE9D229E52EA00F5A492 /* NSObject+MBC.swift in Sources */,
 				3A0BAE26229E51EC00F5A492 /* AppDelegate.swift in Sources */,
