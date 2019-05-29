@@ -16,6 +16,7 @@
 		3A0BAE93229E52EA00F5A492 /* YYLabel+MBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE73229E52EA00F5A492 /* YYLabel+MBC.swift */; };
 		3A0BAE9D229E52EA00F5A492 /* NSObject+MBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE7E229E52EA00F5A492 /* NSObject+MBC.swift */; };
 		3A0BAE9E229E52EA00F5A492 /* Extendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BAE80229E52EA00F5A492 /* Extendable.swift */; };
+		3A0BAEA0229E548900F5A492 /* SimpleExample.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BAE9F229E548800F5A492 /* SimpleExample.podspec */; };
 		B5CA78C4188F78444D9A9B87 /* libPods-SimpleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3828554D2672ECFA2A9F2D4 /* libPods-SimpleExample.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		3A0BAE73229E52EA00F5A492 /* YYLabel+MBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YYLabel+MBC.swift"; sourceTree = "<group>"; };
 		3A0BAE7E229E52EA00F5A492 /* NSObject+MBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+MBC.swift"; sourceTree = "<group>"; };
 		3A0BAE80229E52EA00F5A492 /* Extendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extendable.swift; sourceTree = "<group>"; };
+		3A0BAE9F229E548800F5A492 /* SimpleExample.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = SimpleExample.podspec; sourceTree = SOURCE_ROOT; };
 		AABA4B04BCC224313658054F /* Pods-SimpleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleExample.release.xcconfig"; path = "Target Support Files/Pods-SimpleExample/Pods-SimpleExample.release.xcconfig"; sourceTree = "<group>"; };
 		C3828554D2672ECFA2A9F2D4 /* libPods-SimpleExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 		3A0BAE24229E51EC00F5A492 /* SimpleExample */ = {
 			isa = PBXGroup;
 			children = (
+				3A0BAE9F229E548800F5A492 /* SimpleExample.podspec */,
 				3A0BAE4B229E524A00F5A492 /* Core */,
 				3A0BAE4C229E524A00F5A492 /* Other */,
 			);
@@ -210,6 +213,7 @@
 				3A0BAE30229E51EE00F5A492 /* LaunchScreen.storyboard in Resources */,
 				3A0BAE2D229E51EE00F5A492 /* Assets.xcassets in Resources */,
 				3A0BAE2B229E51EC00F5A492 /* Main.storyboard in Resources */,
+				3A0BAEA0229E548900F5A492 /* SimpleExample.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
